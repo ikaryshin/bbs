@@ -13,3 +13,8 @@
 /bbs_frontend/yarn.lock
 /bbs_frontend/README.md
 /bbs_frontend/src/config.js
+.idea
+bbs_backend/__pycache__/
+bbs_backend/models/__pycache__/
+bbs_backend/routes_api/__pycache__/
+

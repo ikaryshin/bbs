@@ -96,3 +96,5 @@ run() {
   init_backend
   init_frontend
 }
+
+run $1
