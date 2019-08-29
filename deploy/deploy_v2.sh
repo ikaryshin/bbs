@@ -56,10 +56,10 @@ nginx_setting() {
   rm -f /etc/nginx/sites-enabled/default
   rm -f /etc/nginx/sites-available/default
   # 不要在 sites-available 里面放任何东西
-  cp /var/www/bbs_backend/bbs.nginx /etc/nginx/sites-enabled/bbs
+  cp deploy/bbs.nginx /etc/nginx/sites-enabled/bbs
   chmod -R o+rwx /var/www/bbs_backend
 
-  cp /var/www/bbs_backend/bbs_backend.conf /etc/supervisor/conf.d/bbs_backend.conf
+  cp deploy/bbs_backend.conf /etc/supervisor/conf.d/bbs_backend.conf
 }
 
 init_backend() {
