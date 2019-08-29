@@ -46,8 +46,8 @@ mysql_setting() {
 }
 
 copy_source_code() {
-  cp ../bbs_backend /var/www/bbs_backend
-  cp ../bbs_frontend /var/www/bbs_frontend
+  cp /bbs_backend /var/www/bbs_backend
+  cp /bbs_frontend /var/www/bbs_frontend
 }
 
 nginx_setting() {
