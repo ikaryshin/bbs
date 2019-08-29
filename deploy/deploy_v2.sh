@@ -2,7 +2,6 @@
 
 system_setting() {
   apt-get install -y zsh curl ufw
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   ufw allow 22
   ufw allow 80
   ufw allow 443
