@@ -35,7 +35,7 @@ install_yarn() {
 }
 
 mysql_setting() {
-  local mysql_password = $1
+  local mysql_password=$1
   # 删除测试用户和测试数据库
   # 删除测试用户和测试数据库并限制关闭公网访问
   mysql -u root -p$mysql_password -e "DELETE FROM mysql.user WHERE User='';"
@@ -84,7 +84,7 @@ restart_services() {
 }
 
 run() {
-  local mysql_password = $1
+  local mysql_password=$1
 
   system_setting
   install_system_dependency
