@@ -1,0 +1,19 @@
+#user-info {
+    width: 250px;
+}
+
+.user-card {
+    padding: 10px;
+}
+
+.user-name {
+    padding-left: 5px;
+}
+
+.user-name a {
+    color: #888;
+}
+
+.signature {
+    display: block;
+}

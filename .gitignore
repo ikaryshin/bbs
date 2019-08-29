@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+/bbs_backend/.idea/
+/bbs_frontend/node_modules
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/BBS.iml
+/.idea/jsLibraryMappings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/bbs_frontend/.idea/
+/bbs_backend/log.txt
+/bbs_backend/config.py
+/bbs_backend/secret.py
+/bbs_frontend/yarn.lock
+/bbs_frontend/README.md
+/bbs_frontend/src/config.js

@@ -1,0 +1,19 @@
+.new-topic-container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.submit-topic-btn-container {
+    height: 50px;
+    position: relative;
+}
+
+.submit-topic-btn {
+    width: 30%;
+    margin: 10px auto 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

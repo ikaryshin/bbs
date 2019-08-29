@@ -1,0 +1,88 @@
+.topic-container {
+    width: 80%;
+    margin: 10px auto 0px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.topic-content {
+    background: white;
+    min-height: 200px;
+}
+
+.topic-text {
+    padding: 10px;
+}
+
+.topic-header {
+    padding-left: 10px;
+}
+
+.topic-full-title {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.topic-detail {
+    font-size: 80%;
+    color: #888;
+}
+
+.topic-detail span {
+    padding-left: 2px;
+}
+
+.topic-detail span::before {
+    content: "•";
+}
+
+.reply-list-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #e1e1e1;
+}
+
+.reply-cell {
+    background: white;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.reply-info {
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 80%;
+    color: #888;
+}
+
+.reply-user-name {
+    margin-left: 5px;
+    color: black;
+}
+
+.floor::before {
+    content: "•";
+}
+
+.reply-time::before {
+    content: "•";
+}
+
+.reply-content {
+    padding: 8px 5px 0px 5px;
+}
+
+.reply-cell-highlighted {
+    transition: background 1s;
+    background: #c8dfc0;
+}
+
+.create-reply .form-actions {
+    background: white;
+}
+
+.create-reply .form-actions input {
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

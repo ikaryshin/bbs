@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: #e1e1e1;
+}
+
+#root {
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+}
+
+#main {
+    /*整个页面的背景色*/
+    height: 100%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#content {
+    padding: 10px 0px 0px 10px;
+    height: 100%;
+    margin-right: 270px;
+}
+
+.header {
+    padding: 10px;
+    background: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+
+.inner {
+    background: #ffffff;
+}
+
+.user-big-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.user-small-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.xclearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.span-info {
+    display: inline-block;
+    width: 98%;
+    float: none;
+    padding: 3px 10px;
+    border: none;
+    margin: 10px 5px 0 0px;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: none;
+    border-radius: 3px;
+    line-height: 2em;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+@media all and (max-width: 1000px) {
+    #sidebar {
+        display: none;
+    }
+
+    #content {
+        width: 100%;
+    }
+}
+
+.mde-preview {
+    min-height: 210px;
+    background: white;
+}
+
+.link-button {
+    background-color: transparent;
+    color: #888;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.link-button:hover {
+    text-decoration: underline;
+    outline: none;
+    color: #007bff;
+}
+
+.link-button:focus {
+    outline: none;
+}
+
+.board-button {
+    margin-left: 10px;
+    padding: 1px 5px;
+    color: #82be0f;
+}
+
+.board-button:hover {
+    text-decoration: none;
+}
+
+.highlighted-board-button {
+    color: white;
+    background: #82be0f;
+    border-radius: 5px;
+}
+
+.highlighted-board-button:hover {
+    color: white;
+}
+
+

@@ -1,0 +1,76 @@
+.topic-list {
+    background: #e1e1e1;
+}
+
+.topic-cell {
+    /*每个主题 cell 的间隔 1px*/
+    margin-bottom: 1px;
+    margin-top: 1px;
+    /*将背景设置为白色*/
+    background: #ffffff;
+    /*为以下的 absolute 布局服务*/
+    position: relative;
+    /*设定高度，以下的布局都要根据此总高度*/
+    height: 50px;
+}
+
+.topic-cell a {
+    /*文字颜色黑色，主要覆盖链接颜色*/
+    color: #333333;
+}
+
+.topic-cell a:visited {
+    color: #888888;
+}
+
+.topic-cell:hover {
+    background: #f5f5f5;
+}
+
+.topic-cell .user-avatar {
+    /*设定主题 cell 中的头像*/
+    margin: 10px 0px 10px 5px;
+}
+
+.topic-title-container {
+    /*为了居中*/
+    height: 26px;
+    padding: 12px 0px 12px 40px;
+}
+
+.topic-title {
+    /*让下划线能够在整个一条时就触发。而且在 overflow 的时候，显示省略号。*/
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 60px;
+    white-space: nowrap;
+}
+
+.reply-data {
+    font-size: 40%;
+    position: absolute;
+    left: 40px;
+    top: 36px;
+}
+
+.view-count {
+    color: #9e78c0;
+}
+
+.count-seperator {
+    padding: 0px 1px;
+}
+
+.last-reply {
+    font-size: 80%;
+    position: absolute;
+    right: 5px;
+    top: 75%;
+    transform: translateY(-50%);
+    background: white;
+}
+
+.since-last-reply {
+    padding-left: 5px;
+}

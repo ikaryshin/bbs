@@ -1,0 +1,23 @@
+/*做这样一个效果，不断缩小的只有右边。当宽度低于一个值时，缩小左边。*/
+.profile-container {
+    padding-right: 150px;
+}
+
+.profile {
+    padding: 5px 0px 1px 10px;
+    margin-bottom: 20px;
+}
+
+.profile-avatar-username-container {
+    height: 50px;
+}
+
+.profile-username {
+    padding-left: 5px;
+}
+
+.profile-setting {
+    width: 100%;
+    color: #888;
+    margin: 5px 0px;
+}

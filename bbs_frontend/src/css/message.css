@@ -1,0 +1,136 @@
+.message {
+    margin: 10px auto 0px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 550px;
+    width: 80%;
+    min-width: 720px;
+}
+
+.message .header {
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 10px;
+    width: 200px;
+    float: left;
+    height: 500px;
+}
+
+
+.contact-list li {
+    border-bottom: 1px solid #f7f8fa;
+    width: 150px;
+    cursor: pointer;
+    padding: 10px 0px;
+    user-select: none;
+}
+
+.contact-list li span {
+    border-bottom: 1px solid #f7f8fa;
+    width: 150px;
+    cursor: pointer;
+    padding: 10px 0px 10px 10px;
+    user-select: none;
+}
+
+.contact-list li:first-child {
+    margin-top: 10px;
+    border-top: 1px solid #f7f8fa;
+}
+
+.contact-list li:hover {
+    background: #f7f8fa;
+}
+
+.contact-list .user-avatar {
+    display: inline;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.message-chat {
+    margin-left: 200px;
+    border-left: 1px solid #ebebeb;
+    padding-left: 10px;
+}
+
+.message-chat-content {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.message-chat-input-content {
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+
+.message-chat-input-submit {
+    margin-left: 10px;
+}
+
+.message-other-user {
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    font-weight: bold;
+    height: 45px;
+}
+
+.chat-message-cell {
+    position: relative;
+}
+
+.chat-message-cell .chat-message-cell-content {
+    background: #f6f6f6;
+    padding: 10px;
+    width: auto;
+    display: inline-block;
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.chat-message-cell.chat-receive {
+    margin: 10px 0px 10px 5px;
+}
+
+.chat-message-cell.chat-send {
+    margin: 10px 5px 10px 0px;
+}
+
+.chat-message-cell .user-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.chat-send .user-avatar {
+    border-radius: 5px;
+    overflow: hidden;
+    top: 0px;
+    right: 5px;
+}
+
+.chat-receive .user-avatar {
+}
+
+.chat-send .chat-message-cell-content {
+    margin-right: 50px;
+}
+
+.chat-receive .chat-message-cell-content {
+    margin-left: 50px;
+}
+
+.chat-page {
+    min-width: 720px;
+}
