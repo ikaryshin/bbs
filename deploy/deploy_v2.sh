@@ -1,6 +1,7 @@
 #!/bin/bash
 
 system_setting() {
+  set -ex
   apt-get install -y zsh curl ufw
   ufw allow 22
   ufw allow 80
