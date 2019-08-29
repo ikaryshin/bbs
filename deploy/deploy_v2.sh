@@ -95,6 +95,7 @@ run() {
   nginx_setting
   init_backend
   init_frontend
+  restart_services
 }
 
 run $1

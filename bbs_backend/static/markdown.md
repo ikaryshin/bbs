@@ -10,7 +10,7 @@
 行内高亮： `markdown`
 
 
-图片： ![图片](/images/3.jpg)
+图片： ![图片](/api/images/3.jpg)
 
 
 
