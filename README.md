@@ -25,9 +25,14 @@ su root
 // 复制以下代码
 
 // 填写网站的域名或是 ip 地址。不要带协议名。
-const server_name = 'github.com' 
+const server_name = 'github.com'
+// 是否使用 https
+const use_https = false
 
-export default server_name
+export {
+    server_name as server,
+    use_https as useHTTPS,
+}
 ```
 
 5. 在 /home/ubuntu/bbs/bbs_backend 中添加 config.py 文件。

@@ -1,6 +1,8 @@
-import server from './config'
+import {server, useHTTPS} from './config'
 
-const serverName = `http://${server}`
+let protocol = useHTTPS ? 'https' : 'http'
+
+const serverName = `${protocol}://${server}`
 
 const apiBaseUrl = `${serverName}/api`
 
