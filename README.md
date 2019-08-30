@@ -59,6 +59,30 @@ mail_password = ""
 database_password = ''
 ```
 
+7. 运行部署脚本
+```bash
+cd /home/ubuntu/bbs
+# 将数据库密码作为参数
+sh deploy/deploy_v2.sh mysql_password
+```
+
+8. HTTPS 支持
+- 修改 `config.py` 中的 server_name 
+- 修改 `config.js` 中的 use_https
+- 在 `/var/www/bbs_frontend` 中重新运行 `yarn run build`（可能出现内存不足的问题，需要停止某些服务）
+
+```bash
+# 使用 certbot https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
+# 注意先将 /etc/nginx/sites-enabled/bbs 中的 server_name 修改为需要添加 https 支持的域名
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot python-certbot-nginx
+sudo certbot --nginx
+```
+
 ## 技术栈
 - Flask
 - SQLAlchemy
