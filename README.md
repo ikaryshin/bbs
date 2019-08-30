@@ -1,7 +1,7 @@
 # bbs
 基于 Flask 和 React 的前后端分离论坛
 
-https:www.joshuaxiao.com
+https://www.joshuaxiao.com
 
 ## 部署流程
 （以下流程在腾讯云 Ubuntu Server 18.04.1 LTS 64位下测试可行）
