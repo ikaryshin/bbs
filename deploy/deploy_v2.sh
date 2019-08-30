@@ -32,6 +32,7 @@ install_yarn() {
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
   sudo apt-get update
   sudo apt-get install -y yarn
+  yarn config set registry http://mirrors.cloud.tencent.com/npm/
 }
 
 mysql_setting() {
