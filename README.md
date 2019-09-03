@@ -3,6 +3,29 @@
 
 https://www.joshuaxiao.com
 
+## 项目效果
+
+1. 首页
+![index.png](https://i.loli.net/2019/09/03/VJeT1vDtNKBpCH7.png)
+
+2. 发布新主题
+![new.png](https://i.loli.net/2019/09/03/wDAl5sNJftZHkBu.png)
+
+3. 主题详情
+![topic.png](https://i.loli.net/2019/09/03/zukXKCeANTJ6fx7.png)
+
+4. 主题回复
+![reply_.png](https://i.loli.net/2019/09/03/9ZodWK6QAC5q8IY.png)
+
+5. 用户页面
+![profile.png](https://i.loli.net/2019/09/03/ERX234eDBOfcl5N.png)
+
+6. 设置用户信息
+![setting.png](https://i.loli.net/2019/09/03/xyKeHzvu5qVcA3w.png)
+
+7. 实时私信页面
+![chat.png](https://i.loli.net/2019/09/03/6CySr98ZVvFqwLb.png)
+
 ## 部署流程
 （以下流程在腾讯云 Ubuntu Server 18.04.1 LTS 64位下测试可行）
 
